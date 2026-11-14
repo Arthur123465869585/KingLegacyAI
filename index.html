@@ -109,4 +109,4 @@ $('coordinate').addEventListener('click',()=>{
 
 loadAgentState();
 try{let old=JSON.parse(safeGet('kla43', safeGet('kla21'))||'null');if(old){data={...data,...old};$('level').value=data.level;$('xp').value=data.xp;$('beli').value=data.beli;$('gems').value=data.gems;$('goal').value=String(data.goal);$('xpGoal').value=String(data.xpGoal||1000000)}}catch(e){}render();updateTimer();coordinateTeam();
-</script></body></html>
+</script></body></html><script src="metas.js"></script>
